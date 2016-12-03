@@ -1,1 +1,42 @@
-<img src="/img/SRClogo.gif">
+.tag1{font-size: 30px;
+      font-style: bold;
+      color: silver;}
+.tag2{font-size:20px;
+      color: silver;
+      display: inline;
+    margin-left: 30px;}
+.text{text-align: center;
+    font-size: 30px;
+    background-color: rgba(41,71,102,.46);
+    width:1200px;
+    height:400px;
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 100px;        /* CSS3草案 */
+    -webkit-border-radius:100px;    /* Safari,Google Chrome用 */
+     }
+.exp1{font-style: italic;
+      font-family: Impact;}
+.exp2{font-style: italic;
+}
+.exp{background-color:hsla(190,34%,47%,.51);
+    margin-top:40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 800px;
+    border: 10px solid #3D6DD6;        /* CSS3草案 */
+    -webkit-border-radius: 30px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;
+  }
+.midashi{font-style:normal;
+        text-align: center;
+        font-size: 40px;}
+.midashi2{font-size: 20px;
+          }
+.img{display: inline;
+  margin-top: 50px;
+  margin-left: 20px;}
+.src{ background-color: white;
+      font-size: 20px;
+      display: inline;}
