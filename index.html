@@ -3,6 +3,10 @@
   <head>
     <meta charaset="utf-8">
     <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="./foundation-6.2.4-complete /css/app.css">
+    <link rel="stylesheet" href="./foundation-6.2.4-complete /css/foundation.css">
+    <link rel="stylesheet" href="./foundation-6.2.4-complete /css/foundation.min.css">
+
     <style type="text/css">
       A:link{color:silver;}
       A:visited{color:blue;}
@@ -14,6 +18,16 @@
   </title>
 
   <body>
+    <ul class="horizontal menu" data-magellan>
+    <li><a href="#first">First Arrival</a></li>
+    <li><a href="#second">Second Arrival</a></li>
+    <li><a href="#third">Third Arrival</a></li>
+  </ul>
+  <div class="sections">
+    <section id="first" data-magellan-target="first">First Section</section>
+    <section id="second" data-magellan-target="second">Second Section</section>
+    <section id="third" data-magellan-target="third">Third Section</section>
+  </div>
 
     <a class="tag1" >Space Rbot Contest 14</a>
     <a class="tag2" href="#">理念</a>
@@ -80,6 +94,7 @@
    <p class="img">
      <img src="./image/SMlogo_1.jpg" width="400px" height="70px">
    </p>
+
 
 
   </body>
