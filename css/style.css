@@ -6,6 +6,9 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+}
+i{color:skyblue;}
 h1 {text-align: center;
 	font-weight: 400;
 	font-size: 50px;
@@ -21,6 +24,7 @@ h2 {
 	padding-bottom: 10px;
 	text-align: left;
 }
+
 h3{
 	color: black;
 	font-size: 30px;
@@ -500,3 +504,6 @@ header .intro-text {
 	margin-bottom: 20px;
 }
 }
+.imgjfs{
+				position:absolute;
+			top: 500px;}
